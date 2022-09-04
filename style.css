@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(./OpenSans-Regular.ttf);
+}
+body{
+    font-family: "OpenSans";
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    margin: 0;
+}
+/* header */
+header{
+    background-image: url(./images/bg-hero-desktop.svg);
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    padding: 20px
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > img{
+    width: 15%;
+}
+nav > button{
+    background-color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px grey;
+    margin-right: 10px;
+}
+.header-body{
+    display: flex;
+    padding: 30px 10px;
+    margin-top: 10px;
+}
+.header-body > div{
+    flex: 50%;
+}
+.header-image > img{
+    width: 100%;
+}
+.header-text{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding-top: 5%;
+}
+.header-text > h1{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    padding-right: 200px;
+}
+.header-text > p{
+    padding-right: 190px;
+}
+.header-text > button{
+    width: 50%;
+    padding: 20px 0;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+}
+/* body section */
+main{
+    padding-top: 50px;
+}
+.card-section{
+    height: 50vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px grey;
+    display: flex;
+}
+.card-section > div{
+    flex: 50%;
+    padding: 20px
+}
+
+.section-image > img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.section-text > h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-left: 20%;
+    margin-top: 18%
+}
+.section-text>p{
+    padding-left: 20%;
+}
+/*oveerflowing card*/
+
+.card-overflow{
+    width: 50%;
+    margin: auto;
+    box-shadow: 1px 1px 5px grey;
+    padding: 40px;
+    position: relative;
+    top: 80px;
+    background-color: white;
+}
+.card-overflow >h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+    font-size: 32px;
+}
+.card-overflow > button{
+    width: 50%;
+    display: block;
+    padding: 20px 0;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+
+}
+footer{
+    height: 70vh;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer > div{
+    flex: 20%;
+}
